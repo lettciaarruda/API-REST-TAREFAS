@@ -1,0 +1,22 @@
+package com.spring.todo.conriguration;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Profile;
+
+import com.spring.todo.services.DBService;
+
+@Configuration
+@Profile("test")
+public class TesteConfig {
+	
+	
+	@Autowired
+	private DBService dbService;
+	
+	public boolean instancia() {
+		this.dbService.instanciaBaseDeDados();
+		return true;
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.spring.todo.todo.domain;
+
+public class Todo {
+
+}

@@ -1,0 +1,5 @@
+package com.spring.todo.resources;
+
+public class TodoResource {
+
+}

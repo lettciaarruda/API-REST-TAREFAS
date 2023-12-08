@@ -1,0 +1,5 @@
+package com.spring.todo.repositories;
+
+public interface TodoRepository {
+
+}
